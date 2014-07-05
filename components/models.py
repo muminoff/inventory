@@ -34,6 +34,7 @@ class Category(models.Model):
 
     class Meta:
         db_table = 'categories'
+        ordering = ['name',]
 
     def __unicode__(self):
         return u"{0}".format(self.name)
@@ -52,9 +53,10 @@ class Component(models.Model):
 
     class Meta:
         db_table = 'components'
+        ordering = ['category', '-available_quantity',]
 
     def __unicode__(self):
         return u"{0} [{1}]".format(self.name, self.available_quantity)
 
     def get_absolute_url(self):
-        return "/component/%s/" % self.id
+        return "/component/%s/edit/" % self.id

@@ -8,11 +8,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">미니 프로젝트 이름</a>
+      <a class="navbar-brand" href="{% url "home_page" %}">미니 프로젝트 이름</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">구성 요소</a></li>
+        <li class="active"><a href="{% url "component_list_page" %}">구성 요소</a></li>
         <li class=""><a href="#">보고서 DB</a></li>
       </ul>
       <!-- <div class="nav navbar-nav navbar-right"> -->

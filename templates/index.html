@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<style>
+</style>
+<div class="row">
+    <div class="col-md-12">
+        <div class="row-fluid">
+            <button class="btn btn-lg btn-default" onClick='window.location.href="{% url "component_list_page" %}"'><i class="fa fa-database"></i> 구성 요소</button>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

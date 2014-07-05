@@ -2,30 +2,38 @@
 {% load staticfiles %}
 
 {% block content %}
-<form class="form-horizontal" role="form" action="{% url "component_edit_page" component.id %}" method="POST">
+<form class="form-horizontal" role="form" action="{% url "component_add_page" %}" method="POST">
   {% csrf_token %}
   <div class="form-group">
     <label for="name" class="col-sm-2 control-label">부품명</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" name="name" id="name" placeholder="Name" value="{{ component.name }}">
+    <div class="col-sm-5">
+      <input type="text" class="form-control" name="name" id="name" placeholder="부품명" value="{{ component.name }}">
+    </div>
+    <label for="category" class="col-sm-1 control-label">품명</label>
+    <div class="col-sm-4">
+        <select name="category" id="category">
+            {% for category in categories %}
+            <option value="{{ category.id }}">{{ category.name }}</option>
+            {% endfor %}
+        </select>
     </div>
   </div>
   <div class="form-group">
     <label for="total_qty" class="col-sm-2 control-label">현수량</label>
     <div class="col-sm-1">
-      <input type="number" class="form-control" id="total_qty" name="total_qty" min="0" placeholder="Total Quantity" value="{{ component.total_quantity }}">
+      <input type="number" class="form-control" id="total_qty" name="total_qty" min="0" value="0">
     </div>
     <label for="purchased_qty" class="col-sm-2 control-label">구매수량</label>
     <div class="col-sm-1">
-      <input type="number" class="form-control" id="purchased_qty" name="purchased_qty" min="0" placeholder="Purchased Quantity" value="{{ component.being_purchased }}">
+      <input type="number" class="form-control" id="purchased_qty" name="purchased_qty" min="0" value="0">
     </div>
     <label for="used_qty" class="col-sm-2 control-label">사용수량</label>
     <div class="col-sm-1">
-      <input type="number" class="form-control" id="used_qty" name="used_qty" min="0" placeholder="Used Quantity" value="{{ component.being_used }}">
+      <input type="number" class="form-control" id="used_qty" name="used_qty" min="0" value="0">
     </div>
     <label for="repair_qty" class="col-sm-2 control-label">회수</label>
     <div class="col-sm-1">
-        <input type="number" class="form-control" id="repair_qty" name="repair_qty" min="0" placeholder="Repair Quantity" value="{{ component.being_repaired }}">
+        <input type="number" class="form-control" id="repair_qty" name="repair_qty" min="0" value="0">
     </div>
   </div>
   <div class="form-group">
@@ -38,7 +46,7 @@
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-        <button type="button" class="btn btn-danger btn-block" onClick='window.location.href="{% url "component_delete_page" component.id %}"'><i class="fa fa-trash-o"></i> 삭제</button>
+      <button type="button" class="btn btn-danger btn-block"><i class="fa fa-trash-o"></i> 삭제</button>
     </div>
   </div>
 </form>

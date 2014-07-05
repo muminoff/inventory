@@ -8,14 +8,14 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    # url(r'^$', TemplateView.as_view(template_name='components.html')),
-
     # Examples:
     # url(r'^$', 'inventory.views.home', name='home'),
     # url(r'^inventory/', include('inventory.foo.urls')),
-    url(r'^$', 'components.views.components_page', name='component_list_page'),
-    # url(r'^component/(?P<pk>.+)/$', 'components.views.component_edit_page', name='component_edit_page'),
-    url(r'^component/(?P<pk>.+)/$', 'components.views.component_edit_page', name='component_edit_page'),
+    url(r'^$', TemplateView.as_view(template_name='index.html'), name="home_page"),
+    url(r'^components/$', 'components.views.components_page', name='component_list_page'),
+    url(r'^components/add/$', 'components.views.component_add_page', name='component_add_page'),
+    url(r'^component/(?P<pk>.+)/edit/$', 'components.views.component_edit_page', name='component_edit_page'),
+    url(r'^component/(?P<pk>.+)/delete/$', 'components.views.component_delete_page', name='component_delete_page'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
