@@ -2,6 +2,19 @@ from django.db import models
 import random
 import string
 
+from django.contrib.sessions.models import Session
+from django.contrib.sites.models import Site
+from django.contrib.admin.models import LogEntry
+from django.contrib.contenttypes.models import ContentType
+from django.contrib.auth.models import Permission, Group
+
+Session._meta.db_table = 'sessions'
+Site._meta.db_table = 'sites'
+LogEntry._meta.db_table = 'admin_log'
+ContentType._meta.db_table = 'content_types'
+Permission._meta.db_table = 'auth_perm'
+Group._meta.db_table = 'auth_group'
+
 
 def generate_category_id():
     id = ''.join(random.sample(string.lowercase + string.digits, 32))
@@ -42,3 +55,6 @@ class Component(models.Model):
 
     def __unicode__(self):
         return u"{0} [{1}]".format(self.name, self.available_quantity)
+
+    def get_absolute_url(self):
+        return "/component/%s/" % self.id

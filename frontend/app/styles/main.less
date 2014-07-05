@@ -4,13 +4,60 @@
 @import "../bower_components/font-awesome/less/font-awesome.less";
 @fa-font-path: "../fonts/font-awesome";
 
-.browsehappy {
-  margin: 0.2em 0; 
-  background: #ccc; 
-  color: #000; 
-  padding: 0.2em 0; 
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.jumbotron {
-  margin: 50px auto 0 auto;
+.navbar {
+  margin-top: 20px;
+}
+
+
+/* // Typography */
+/* // ------------------------- */
+
+/* @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif; */
+/* @font-family-serif:       Georgia, "Times New Roman", Times, serif; */
+/* @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace; */
+/* @font-family-base:        @font-family-sans-serif; */
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@korean: 'Nanum Gothic', sans-serif;
+@font-family-base:        @korean;
+@font-size-base:          14px;
+
+/* @font-size-base:          14px; */
+/* @font-size-large:         ceil(@font-size-base * 1.25); // ~18px */
+/* @font-size-small:         ceil(@font-size-base * 0.85); // ~12px */
+
+/* @font-size-h1:            floor(@font-size-base * 2.6); // ~36px */
+/* @font-size-h2:            floor(@font-size-base * 2.15); // ~30px */
+/* @font-size-h3:            ceil(@font-size-base * 1.7); // ~24px */
+/* @font-size-h4:            ceil(@font-size-base * 1.25); // ~18px */
+/* @font-size-h5:            @font-size-base; */
+/* @font-size-h6:            ceil(@font-size-base * 0.85); // ~12px */
+
+/* @line-height-base:        1.428571429; // 20/14 */
+/* @line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px */
+
+/* @headings-font-family:    @font-family-base; */
+/* @headings-font-weight:    500; */
+/* @headings-line-height:    1.1; */
+/* @headings-color:          inherit; */
+
+
+
+/* @navbar-default-bg:       #c0392b; */
+@navbar-default-color:    #000;
+@navbar-default-link-color:                #000;
+@brand-success: #16a085;
+@brand-primary: #2980b9;
+/* @navbar-default-link-disabled-color:       #fff; */
+/* @navbar-default-link-active-color:         #fff; */
+/* @navbar-default-link-hover-color:          #fff; */
+
+.action-button-panel {
+  margin-bottom: 18px;
 }

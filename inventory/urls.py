@@ -8,12 +8,14 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^$', TemplateView.as_view(template_name='base.html')),
+    # url(r'^$', TemplateView.as_view(template_name='components.html')),
 
     # Examples:
     # url(r'^$', 'inventory.views.home', name='home'),
     # url(r'^inventory/', include('inventory.foo.urls')),
-    url(r'^components/', 'components.views.components_page', name='components'),
+    url(r'^$', 'components.views.components_page', name='component_list_page'),
+    # url(r'^component/(?P<pk>.+)/$', 'components.views.component_edit_page', name='component_edit_page'),
+    url(r'^component/(?P<pk>.+)/$', 'components.views.component_edit_page', name='component_edit_page'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

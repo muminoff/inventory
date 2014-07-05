@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <div class="row-fluid">
+            <div class="action-button-panel">
+                <button class="btn btn-sm btn-primary"><i class="fa fa-plus-square"></i> 추가</button>
+                <button class="btn btn-sm btn-success"><i class="fa fa-file-excel-o"></i> 내보내기</button>
+                <button class="btn btn-sm btn-success"><i class="fa fa-paperclip"></i> 메일에 첨부</button>
+            </div>
+        </div>
+
+        <table class="table table-striped table-condensed">
+            <thead>
+                <tr>
+                    <th>품명</th>
+                    <th>현수량</th>
+                    <th>구매수량</th>
+                    <th>사용수량</th>
+                    <th>회수</th>
+                    <th>잔고</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for category in categories %}
+                <tr>
+                    <td>{{ category.name }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+
+
+{% endblock content %}

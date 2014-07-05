@@ -1,0 +1,478 @@
+[
+{
+    "pk": "category-1smqdy35pz094ljvghkfrxiw26ubonet", 
+    "model": "components.category", 
+    "fields": {
+        "name": "Mainboard"
+    }
+},
+{
+    "pk": "category-2w7yjoztqclp3mxf0gi9bavshu1edkr8", 
+    "model": "components.category", 
+    "fields": {
+        "name": "SSD"
+    }
+},
+{
+    "pk": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+    "model": "components.category", 
+    "fields": {
+        "name": "HDD"
+    }
+},
+{
+    "pk": "category-7viykpqs0ntzecmubo2f9xl45rjadg68", 
+    "model": "components.category", 
+    "fields": {
+        "name": "Board"
+    }
+},
+{
+    "pk": "category-dlkzs590acwg7tjpb6i3xou18hvre42q", 
+    "model": "components.category", 
+    "fields": {
+        "name": "RaidCard"
+    }
+},
+{
+    "pk": "category-jt5qeu1icld2wp78yfkg30a4mshnrvo6", 
+    "model": "components.category", 
+    "fields": {
+        "name": "RAM"
+    }
+},
+{
+    "pk": "category-ka95r2nj7voys4013qx8mzuwb6dcpgft", 
+    "model": "components.category", 
+    "fields": {
+        "name": "CPU"
+    }
+},
+{
+    "pk": "category-sh5yezw6mnjg4308ptl2kbo1ic7f9arx", 
+    "model": "components.category", 
+    "fields": {
+        "name": "Case"
+    }
+},
+{
+    "pk": "component-24qi91xdeurw0tg867pyhbfac5vm3znj", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-dlkzs590acwg7tjpb6i3xou18hvre42q", 
+        "total_quantity": 34, 
+        "name": "Adaptec ASR 6805 8ch (6G)", 
+        "notes": "", 
+        "being_repaired": 8, 
+        "being_used": 2, 
+        "being_purchased": 79, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-2pwtgj3yvqs90hlbuxfrcn8kido5aze4", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 92, 
+        "name": "Western Digital 1TB SATA-III (7200/64M/Blue)", 
+        "notes": "", 
+        "being_repaired": 98, 
+        "being_used": 4, 
+        "being_purchased": 6, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-2ypt8941w6gjidvhefrcqln7xzsa35mo", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 44, 
+        "name": "Western Digital 2TB SATA-III (7200/64M/Ent)", 
+        "notes": "", 
+        "being_repaired": 31, 
+        "being_used": 7, 
+        "being_purchased": 97, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-36x0z81792hmnbjv5udqsipcolgak4tr", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 51, 
+        "name": "Seagate 3TB ST3000DM001(7200rpm/16M)", 
+        "notes": "", 
+        "being_repaired": 86, 
+        "being_used": 2, 
+        "being_purchased": 71, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-3wog179sdcqbek4yx5mpzft8nhvriju0", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-2w7yjoztqclp3mxf0gi9bavshu1edkr8", 
+        "total_quantity": 29, 
+        "name": "Samsung 128GB(840Pro)", 
+        "notes": "", 
+        "being_repaired": 23, 
+        "being_used": 6, 
+        "being_purchased": 12, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-5kudhgsay2p9ezrn8xv0q3i1ct6m4lbj", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-7viykpqs0ntzecmubo2f9xl45rjadg68", 
+        "total_quantity": 52, 
+        "name": "SuperMicro X10SLH-F", 
+        "notes": "", 
+        "being_repaired": 36, 
+        "being_used": 1, 
+        "being_purchased": 6, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-83gbyns4ri1falvept5huoq2w9k6mdjc", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-sh5yezw6mnjg4308ptl2kbo1ic7f9arx", 
+        "total_quantity": 14, 
+        "name": "Supermicro Case 400W - 6bay", 
+        "notes": "", 
+        "being_repaired": 66, 
+        "being_used": 8, 
+        "being_purchased": 26, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-9a6mq0wgxdoprz3b25t8hcysk14ijn7l", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 41, 
+        "name": "Western Digital 500GB SATA-III (7200/16M/Blue)", 
+        "notes": "", 
+        "being_repaired": 54, 
+        "being_used": 3, 
+        "being_purchased": 52, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-aj926msuhwfp7t83k51xezcnqlodbi4v", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-dlkzs590acwg7tjpb6i3xou18hvre42q", 
+        "total_quantity": 73, 
+        "name": "Adaptec ASR 5405 4ch (3G)", 
+        "notes": "", 
+        "being_repaired": 44, 
+        "being_used": 4, 
+        "being_purchased": 35, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-ajdl7cq98tvngkms4or1weu2hfy0i5pb", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-sh5yezw6mnjg4308ptl2kbo1ic7f9arx", 
+        "total_quantity": 42, 
+        "name": "Supermicro Case 600W - 8bay", 
+        "notes": "", 
+        "being_repaired": 87, 
+        "being_used": 7, 
+        "being_purchased": 70, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-bjsnx4ceau7v5tp182zr903ohifdk6wm", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 48, 
+        "name": "Western Digital 3TB SATA-III (7200/64M/Ent)", 
+        "notes": "", 
+        "being_repaired": 44, 
+        "being_used": 5, 
+        "being_purchased": 45, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-bli8wa4p2ydnvu1q5gsoh6tjmz0xr93k", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-jt5qeu1icld2wp78yfkg30a4mshnrvo6", 
+        "total_quantity": 78, 
+        "name": "Samsung 2GB DDR3", 
+        "notes": "", 
+        "being_repaired": 46, 
+        "being_used": 10, 
+        "being_purchased": 70, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-cu0dq6p73wro1jxegki9la8zvybt4fsm", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-7viykpqs0ntzecmubo2f9xl45rjadg68", 
+        "total_quantity": 30, 
+        "name": "SuperMicro X9DRL-IF", 
+        "notes": "", 
+        "being_repaired": 20, 
+        "being_used": 6, 
+        "being_purchased": 87, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-ebfhu5dqanli4yztkv2r7x0os8wcmg1j", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-ka95r2nj7voys4013qx8mzuwb6dcpgft", 
+        "total_quantity": 95, 
+        "name": "E3-1230v2 (4Core) 3.3GHz(Heat sink\ud3ec\ud568)", 
+        "notes": "", 
+        "being_repaired": 11, 
+        "being_used": 9, 
+        "being_purchased": 22, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-eg5ukp3oqn4m2hyzxcl61f8wt79rabsi", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-2w7yjoztqclp3mxf0gi9bavshu1edkr8", 
+        "total_quantity": 55, 
+        "name": "Intel 80GB (S3500 Series)", 
+        "notes": "", 
+        "being_repaired": 71, 
+        "being_used": 9, 
+        "being_purchased": 61, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-hzuo5bwgjqr0avmy6xef1t9p4s2nk8c3", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 68, 
+        "name": "Seagate 500GB ST500DM002(7200rpm/16M)", 
+        "notes": "", 
+        "being_repaired": 32, 
+        "being_used": 7, 
+        "being_purchased": 96, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-iyu4bc0e65amr32dnplvj9wfgq87xosh", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-ka95r2nj7voys4013qx8mzuwb6dcpgft", 
+        "total_quantity": 88, 
+        "name": "E3-1230v3 (4Core) 3.3GHz(Heat sink\ud3ec\ud568)", 
+        "notes": "", 
+        "being_repaired": 57, 
+        "being_used": 9, 
+        "being_purchased": 65, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-j30n16cigyxoalk45me8uzpq2w9th7rs", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-ka95r2nj7voys4013qx8mzuwb6dcpgft", 
+        "total_quantity": 59, 
+        "name": "E3-1230v2 (6Core) 2.00GHz(Heat sink\ud3ec\ud568)", 
+        "notes": "", 
+        "being_repaired": 75, 
+        "being_used": 4, 
+        "being_purchased": 55, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-j6ranl8w17sog4btzipvm05cxfdu93yq", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-2w7yjoztqclp3mxf0gi9bavshu1edkr8", 
+        "total_quantity": 41, 
+        "name": "Samsung 512GB(840Pro)", 
+        "notes": "", 
+        "being_repaired": 97, 
+        "being_used": 4, 
+        "being_purchased": 98, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-jx9ia4fehlzk6omqn5s3y87p0bctvr1g", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-dlkzs590acwg7tjpb6i3xou18hvre42q", 
+        "total_quantity": 3, 
+        "name": "Adaptec ASR 8405 4ch (12G)", 
+        "notes": "", 
+        "being_repaired": 98, 
+        "being_used": 2, 
+        "being_purchased": 16, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-m1pdsec29l3u7kt5vabo68hfqzgnyrix", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-7viykpqs0ntzecmubo2f9xl45rjadg68", 
+        "total_quantity": 10, 
+        "name": "SuperMicro X9SCM-F", 
+        "notes": "", 
+        "being_repaired": 1, 
+        "being_used": 1, 
+        "being_purchased": 4, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-nmcj7eogqkfu28l3phxvsird569t0w14", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 25, 
+        "name": "Seagate 2TB ST2000DM001(7200rpm/16M)", 
+        "notes": "", 
+        "being_repaired": 41, 
+        "being_used": 4, 
+        "being_purchased": 17, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-nsqt4rvm6yjb7lc2hkug39wieopz1ad5", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-dlkzs590acwg7tjpb6i3xou18hvre42q", 
+        "total_quantity": 5, 
+        "name": "Adaptec ASR 8805 8ch (12G)", 
+        "notes": "", 
+        "being_repaired": 17, 
+        "being_used": 5, 
+        "being_purchased": 20, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-ox97grciufj05v1de8q46s2b3azylknh", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-2w7yjoztqclp3mxf0gi9bavshu1edkr8", 
+        "total_quantity": 37, 
+        "name": "Intel 120GB (S3500 Series)", 
+        "notes": "", 
+        "being_repaired": 13, 
+        "being_used": 4, 
+        "being_purchased": 97, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-q2efwht6j8y3la7vk1n9zmbopri05dgc", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 44, 
+        "name": "Western Digital 4TB SATA-III (7200/64M/Ent)", 
+        "notes": "", 
+        "being_repaired": 60, 
+        "being_used": 5, 
+        "being_purchased": 36, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-tpfcqkvd5i68r0na7931shwylzbo2mgj", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-2w7yjoztqclp3mxf0gi9bavshu1edkr8", 
+        "total_quantity": 27, 
+        "name": "Samsung 256GB(840Pro)", 
+        "notes": "", 
+        "being_repaired": 65, 
+        "being_used": 9, 
+        "being_purchased": 2, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-u9nhrfeil64yd1xqt0skc27vjbz3gmw8", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-dlkzs590acwg7tjpb6i3xou18hvre42q", 
+        "total_quantity": 70, 
+        "name": "Adaptec ASR 5805 8ch (3G)", 
+        "notes": "", 
+        "being_repaired": 82, 
+        "being_used": 8, 
+        "being_purchased": 68, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-urk9dcp0tihlgzaqxb7s6ym23o54w8ef", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-dlkzs590acwg7tjpb6i3xou18hvre42q", 
+        "total_quantity": 46, 
+        "name": "Adaptec ASR 6405 4ch (6G)", 
+        "notes": "", 
+        "being_repaired": 77, 
+        "being_used": 2, 
+        "being_purchased": 30, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-xam45e0fbci3slnqtp7woz8y69rdhj2u", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-jt5qeu1icld2wp78yfkg30a4mshnrvo6", 
+        "total_quantity": 81, 
+        "name": "Samsung 1GB DDR3", 
+        "notes": "", 
+        "being_repaired": 95, 
+        "being_used": 5, 
+        "being_purchased": 47, 
+        "available_quantity": 0
+    }
+},
+{
+    "pk": "component-xhceo1klbnfv0aj4dmrqs93guip5y82w", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
+        "total_quantity": 56, 
+        "name": "Seagate 1TB ST1000DM003(7200rpm/16M)", 
+        "notes": "", 
+        "being_repaired": 26, 
+        "being_used": 5, 
+        "being_purchased": 17, 
+        "available_quantity": 0
+    }
+}
+]
