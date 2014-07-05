@@ -1,4 +1,4 @@
-Server Inventory
-================
+Inventory project
+=================
 
-Server Inventory daily reports
+Server inventory daily reports
