@@ -66,7 +66,7 @@
         "being_repaired": 8, 
         "being_used": 2, 
         "being_purchased": 79, 
-        "available_quantity": 0
+        "available_quantity": 103
     }
 },
 {
@@ -78,7 +78,7 @@
         "name": "Western Digital 1TB SATA-III (7200/64M/Blue)", 
         "notes": "", 
         "being_repaired": 98, 
-        "being_used": 4, 
+        "being_used": 0, 
         "being_purchased": 6, 
         "available_quantity": 0
     }
@@ -94,7 +94,7 @@
         "being_repaired": 31, 
         "being_used": 7, 
         "being_purchased": 97, 
-        "available_quantity": 0
+        "available_quantity": 103
     }
 },
 {
@@ -108,7 +108,7 @@
         "being_repaired": 86, 
         "being_used": 2, 
         "being_purchased": 71, 
-        "available_quantity": 0
+        "available_quantity": 34
     }
 },
 {
@@ -120,9 +120,9 @@
         "name": "Samsung 128GB(840Pro)", 
         "notes": "", 
         "being_repaired": 23, 
-        "being_used": 6, 
+        "being_used": 15, 
         "being_purchased": 12, 
-        "available_quantity": 0
+        "available_quantity": 3
     }
 },
 {
@@ -136,7 +136,7 @@
         "being_repaired": 36, 
         "being_used": 1, 
         "being_purchased": 6, 
-        "available_quantity": 0
+        "available_quantity": 21
     }
 },
 {
@@ -150,7 +150,7 @@
         "being_repaired": 66, 
         "being_used": 8, 
         "being_purchased": 26, 
-        "available_quantity": 0
+        "available_quantity": -34
     }
 },
 {
@@ -164,7 +164,7 @@
         "being_repaired": 54, 
         "being_used": 3, 
         "being_purchased": 52, 
-        "available_quantity": 0
+        "available_quantity": 36
     }
 },
 {
@@ -178,7 +178,7 @@
         "being_repaired": 44, 
         "being_used": 4, 
         "being_purchased": 35, 
-        "available_quantity": 0
+        "available_quantity": 60
     }
 },
 {
@@ -192,7 +192,7 @@
         "being_repaired": 87, 
         "being_used": 7, 
         "being_purchased": 70, 
-        "available_quantity": 0
+        "available_quantity": 18
     }
 },
 {
@@ -200,13 +200,13 @@
     "model": "components.component", 
     "fields": {
         "category": "category-56wo71syzljg9xrmp30uvb2itdnkce8f", 
-        "total_quantity": 48, 
+        "total_quantity": 49, 
         "name": "Western Digital 3TB SATA-III (7200/64M/Ent)", 
         "notes": "", 
         "being_repaired": 44, 
         "being_used": 5, 
         "being_purchased": 45, 
-        "available_quantity": 0
+        "available_quantity": 45
     }
 },
 {
@@ -220,7 +220,7 @@
         "being_repaired": 46, 
         "being_used": 10, 
         "being_purchased": 70, 
-        "available_quantity": 0
+        "available_quantity": 92
     }
 },
 {
@@ -234,7 +234,7 @@
         "being_repaired": 20, 
         "being_used": 6, 
         "being_purchased": 87, 
-        "available_quantity": 0
+        "available_quantity": 91
     }
 },
 {
@@ -248,7 +248,7 @@
         "being_repaired": 11, 
         "being_used": 9, 
         "being_purchased": 22, 
-        "available_quantity": 0
+        "available_quantity": 97
     }
 },
 {
@@ -262,7 +262,7 @@
         "being_repaired": 71, 
         "being_used": 9, 
         "being_purchased": 61, 
-        "available_quantity": 0
+        "available_quantity": 36
     }
 },
 {
@@ -276,7 +276,21 @@
         "being_repaired": 32, 
         "being_used": 7, 
         "being_purchased": 96, 
-        "available_quantity": 0
+        "available_quantity": 125
+    }
+},
+{
+    "pk": "component-io1d56m8jc9ghtasqx20f7ypzlbrn3e4", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-dlkzs590acwg7tjpb6i3xou18hvre42q", 
+        "total_quantity": 21, 
+        "name": "My hardware 540", 
+        "notes": "", 
+        "being_repaired": 0, 
+        "being_used": 1, 
+        "being_purchased": 3, 
+        "available_quantity": 23
     }
 },
 {
@@ -290,7 +304,7 @@
         "being_repaired": 57, 
         "being_used": 9, 
         "being_purchased": 65, 
-        "available_quantity": 0
+        "available_quantity": 87
     }
 },
 {
@@ -304,7 +318,7 @@
         "being_repaired": 75, 
         "being_used": 4, 
         "being_purchased": 55, 
-        "available_quantity": 0
+        "available_quantity": 35
     }
 },
 {
@@ -318,7 +332,7 @@
         "being_repaired": 97, 
         "being_used": 4, 
         "being_purchased": 98, 
-        "available_quantity": 0
+        "available_quantity": 38
     }
 },
 {
@@ -332,7 +346,21 @@
         "being_repaired": 98, 
         "being_used": 2, 
         "being_purchased": 16, 
-        "available_quantity": 0
+        "available_quantity": -81
+    }
+},
+{
+    "pk": "component-kpuob90hci6zwa4r3yj8dvnesqx57gtl", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-jt5qeu1icld2wp78yfkg30a4mshnrvo6", 
+        "total_quantity": 11, 
+        "name": "Samsung 1GB DDR3", 
+        "notes": null, 
+        "being_repaired": 1, 
+        "being_used": 2, 
+        "being_purchased": 2, 
+        "available_quantity": 10
     }
 },
 {
@@ -346,7 +374,7 @@
         "being_repaired": 1, 
         "being_used": 1, 
         "being_purchased": 4, 
-        "available_quantity": 0
+        "available_quantity": 12
     }
 },
 {
@@ -360,7 +388,7 @@
         "being_repaired": 41, 
         "being_used": 4, 
         "being_purchased": 17, 
-        "available_quantity": 0
+        "available_quantity": -3
     }
 },
 {
@@ -374,7 +402,7 @@
         "being_repaired": 17, 
         "being_used": 5, 
         "being_purchased": 20, 
-        "available_quantity": 0
+        "available_quantity": 3
     }
 },
 {
@@ -388,7 +416,7 @@
         "being_repaired": 13, 
         "being_used": 4, 
         "being_purchased": 97, 
-        "available_quantity": 0
+        "available_quantity": 117
     }
 },
 {
@@ -402,7 +430,7 @@
         "being_repaired": 60, 
         "being_used": 5, 
         "being_purchased": 36, 
-        "available_quantity": 0
+        "available_quantity": 15
     }
 },
 {
@@ -413,10 +441,10 @@
         "total_quantity": 27, 
         "name": "Samsung 256GB(840Pro)", 
         "notes": "", 
-        "being_repaired": 65, 
+        "being_repaired": 4, 
         "being_used": 9, 
         "being_purchased": 2, 
-        "available_quantity": 0
+        "available_quantity": 16
     }
 },
 {
@@ -430,7 +458,7 @@
         "being_repaired": 82, 
         "being_used": 8, 
         "being_purchased": 68, 
-        "available_quantity": 0
+        "available_quantity": 48
     }
 },
 {
@@ -444,21 +472,7 @@
         "being_repaired": 77, 
         "being_used": 2, 
         "being_purchased": 30, 
-        "available_quantity": 0
-    }
-},
-{
-    "pk": "component-xam45e0fbci3slnqtp7woz8y69rdhj2u", 
-    "model": "components.component", 
-    "fields": {
-        "category": "category-jt5qeu1icld2wp78yfkg30a4mshnrvo6", 
-        "total_quantity": 81, 
-        "name": "Samsung 1GB DDR3", 
-        "notes": "", 
-        "being_repaired": 95, 
-        "being_used": 5, 
-        "being_purchased": 47, 
-        "available_quantity": 0
+        "available_quantity": -3
     }
 },
 {
@@ -472,7 +486,7 @@
         "being_repaired": 26, 
         "being_used": 5, 
         "being_purchased": 17, 
-        "available_quantity": 0
+        "available_quantity": 42
     }
 }
 ]
