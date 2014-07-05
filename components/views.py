@@ -22,6 +22,7 @@ def component_add_page(request):
         purchased_quantity = request.POST.get('purchased_qty')
         used_quantity = request.POST.get('used_qty')
         repair_quantity = request.POST.get('repair_qty')
+        notes = request.POST.get('notes')
 
         if total_quantity:
             total_quantity = int(total_quantity)
@@ -41,7 +42,7 @@ def component_add_page(request):
             this_component.being_used = used_quantity
             this_component.being_repaired = repair_quantity
             this_component.available_quantity = ((total_quantity + purchased_quantity) - used_quantity) - repair_quantity
-            this_component.notes = ''
+            this_component.notes = notes 
             this_component.save()
 
         except Exception as e:
@@ -84,6 +85,7 @@ def component_edit_page(request, pk):
         purchased_quantity = int(request.POST.get('purchased_qty'))
         used_quantity = int(request.POST.get('used_qty'))
         repair_quantity = int(request.POST.get('repair_qty'))
+        notes = request.POST.get('notes')
 
         try:
             this_component = Component.objects.get(id=pk)
@@ -93,6 +95,7 @@ def component_edit_page(request, pk):
             this_component.being_used = used_quantity
             this_component.being_repaired = repair_quantity
             this_component.available_quantity = ((total_quantity + purchased_quantity) - used_quantity) - repair_quantity
+            this_component.notes = notes
             this_component.save()
 
         except Exception as e:

@@ -244,7 +244,7 @@
         "category": "category-ka95r2nj7voys4013qx8mzuwb6dcpgft", 
         "total_quantity": 95, 
         "name": "E3-1230v2 (4Core) 3.3GHz(Heat sink\ud3ec\ud568)", 
-        "notes": "", 
+        "notes": "9 components are being used for ASP servers at IDC", 
         "being_repaired": 11, 
         "being_used": 9, 
         "being_purchased": 22, 
@@ -266,6 +266,20 @@
     }
 },
 {
+    "pk": "component-gxo0w5sy14jctqlub73m69eahpdzn2if", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-7viykpqs0ntzecmubo2f9xl45rjadg68", 
+        "total_quantity": 0, 
+        "name": "New component 2", 
+        "notes": "New bought 20 pcs", 
+        "being_repaired": 0, 
+        "being_used": 2, 
+        "being_purchased": 20, 
+        "available_quantity": 18
+    }
+},
+{
     "pk": "component-hzuo5bwgjqr0avmy6xef1t9p4s2nk8c3", 
     "model": "components.component", 
     "fields": {
@@ -275,8 +289,8 @@
         "notes": "", 
         "being_repaired": 32, 
         "being_used": 7, 
-        "being_purchased": 96, 
-        "available_quantity": 125
+        "being_purchased": 84, 
+        "available_quantity": 113
     }
 },
 {
@@ -350,13 +364,27 @@
     }
 },
 {
+    "pk": "component-km2ex07vngzsda9rcw3huti4f8qbl1oy", 
+    "model": "components.component", 
+    "fields": {
+        "category": "category-jt5qeu1icld2wp78yfkg30a4mshnrvo6", 
+        "total_quantity": 5, 
+        "name": "new component 1", 
+        "notes": "", 
+        "being_repaired": 0, 
+        "being_used": 2, 
+        "being_purchased": 0, 
+        "available_quantity": 3
+    }
+},
+{
     "pk": "component-kpuob90hci6zwa4r3yj8dvnesqx57gtl", 
     "model": "components.component", 
     "fields": {
         "category": "category-jt5qeu1icld2wp78yfkg30a4mshnrvo6", 
         "total_quantity": 11, 
         "name": "Samsung 1GB DDR3", 
-        "notes": null, 
+        "notes": "", 
         "being_repaired": 1, 
         "being_used": 2, 
         "being_purchased": 2, 
